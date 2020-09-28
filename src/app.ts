@@ -20,3 +20,15 @@ form.addEventListener('submit', (e: Event) => {
 
   console.log(type.value, toFrom.value, details.value, amount.valueAsNumber)
 })
+
+let firstName = 'Brandon'
+let lastName = 'Sanderson'
+
+let fullName = firstName + ' ' + lastName
+
+console.log(fullName.length)
+console.log(fullName.toUpperCase())
+
+let result = fullName.toLowerCase()
+
+console.log(result)

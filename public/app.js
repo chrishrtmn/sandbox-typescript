@@ -16,3 +16,10 @@ form.addEventListener('submit', function (e) {
     e.preventDefault();
     console.log(type.value, toFrom.value, details.value, amount.valueAsNumber);
 });
+var firstName = 'Brandon';
+var lastName = 'Sanderson';
+var fullName = firstName + ' ' + lastName;
+console.log(fullName.length);
+console.log(fullName.toUpperCase());
+var result = fullName.toLowerCase();
+console.log(result);
